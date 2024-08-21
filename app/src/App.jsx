@@ -6,6 +6,7 @@ const App = () => {
       <div className='my-5 text-center m-auto w-3/4 md:w-2/3 lg:w-full'>
         <h1 className='text-2xl md:text-3xl mb-4 font-semibold'>Exploring Open-Ended Evolution of Aesthetic & Abstract 3D art</h1>
         <p className='text-md md:text-lg'>Ritwik Murali and Veeramanohar Avudaiappan</p>
+        <a className='text-md md:text-lg' href="https://dl.acm.org/doi/10.1145/3638530.3654321">[PDF]</a>
       </div>
       <div className='flex flex-wrap justify-center items-center sm:px-5 md:p-6 gap-5'>
         {modelsData.map((model) => (
